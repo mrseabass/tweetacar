@@ -1,6 +1,115 @@
 .car {
-  position: absolute;
-  width: 200px;
-  height: 100px;
-  background-color: red;
+  position: relative;
+  left:	40%;
+  top:	40%;
+  width: 350px;
+  height: 150px;
+  background-color: rgba(200,200,200,0.5);
+}
+
+.sidepanel {
+	position:	absolute;
+	width: 300px;
+	height: 30px;
+	top: 75px;
+	background-color: #DF0000;
+}
+
+.front {
+	position:	absolute;
+	width: 50px;
+	height: 30px;
+	top: 60px;
+	left:	300px;
+	background-color: #B30000;
+	transform: skew(0deg, -30deg);
+}
+
+.hood {
+	position:	absolute;
+	width: 100px;
+	height: 30px;
+	top: 45px;
+	left:	225px;
+	background-color: #C50000;
+	transform: skew(-60deg, 0deg);
+}
+
+.windowpane {
+	position:	absolute;
+	width: 50px;
+	height: 30px;
+	top: 34px;
+	left: 175px;
+	background-color: #C50000;
+	transform: skew(-60deg, 25deg);
+}
+
+.roof {
+	position:	absolute;
+	width: 50px;
+	height: 30px;
+	top: 22px;
+	left:	126px;
+	background-color: #C50000;
+	transform: skew(-60deg, 0deg);
+}
+
+.door-skew{
+	position:	absolute;
+	width: 50px;
+	height: 23px;
+	top: 52px;
+	left: 125px;
+	background-color: #DF0000;
+	transform: skew(65deg, 0deg);
+}
+
+.door-square {
+	position:	absolute;
+	width: 50px;
+	height: 23px;
+	top: 52px;
+	left: 100px;
+	background-color: #DF0000;
+}
+
+.trunk-bottom {
+	position:	absolute;
+	width: 100px;
+	height: 30px;
+	top: 45px;
+	left:	25px;
+	background-color: #373737;
+	transform: skew(-60deg, 0deg);
+}
+
+.trunk-side{
+	position:	absolute;
+	width: 60px;
+	height: 30px;
+	top: 45px;
+	left: 50px;
+	background-color: #404040;
+}
+
+.wheel{
+	position:	absolute;
+	width: 50px;
+	height: 50px;
+	top: 82px;
+	border-radius: 50%;
+	background-color: #1E1E1E;
+}
+
+.wheel.fr {
+	left: 15px;
+}
+
+.wheel.rr {
+	left: 235px;
+}
+
+.wheel-shadow{
+	
 }
